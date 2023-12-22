@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+#main1 {
+  background-image: url("../media/image1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-width: 360px;
+  height: 595px;
+}
+
+#main1blackbackground {
+  background-image: radial-gradient(
+    rgba(0, 0, 0, 0.384) 10%,
+    rgba(0, 0, 0, 0.788) 100%
+  );
+  height: 100%;
+  width: 100%;
+}
+
+#main1child1 {
+  height: auto;
+  padding: 1.4% 2%;
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  border: 1px solid white;
+  position: absolute;
+  top: 0;
+}
+
+#main1child1 img {
+  width: 180px;
+}
+
+#main1child2 {
+  background-color: rgba(0, 0, 0, 0.726);
+  border-radius: 2px;
+  position: absolute;
+  transform: translate(98%, -82%);
+  width: 34%;
+  height: 100%;
+  border: 1px solid white;
+}
+
+#main1child2id1 {
+  border: 1px solid white;
+  margin: 10% 15%;
+  height: 100%;
+}
+
+#main1h1 {
+  color: white;
+  font-size: 18px;
+  font-family: "Mukta", sans-serif;
+}
+
+#main1input1 {
+  border: 1px solid white;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#main1input1 input {
+  width: 100%;
+  height: 55px;
+  border-radius: 5px;
+  background-color: rgb(61, 61, 61);
+  padding-left: 20px;
+  padding-top: 8px;
+  border-style: none;
+}
+
+#main1input1 input::placeholder {
+  color: rgb(165, 165, 165);
+  font-size: 17px;
+  font-family: "Mukta", sans-serif;
+}
