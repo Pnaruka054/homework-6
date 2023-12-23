@@ -606,6 +606,10 @@ body {
     width: 100%;
   }
 
+  #main4video {
+    width: 60.5%;
+  }
+
   #main5 {
     flex-direction: column-reverse;
     justify-content: space-evenly;
