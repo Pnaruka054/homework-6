@@ -1,167 +1,707 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Netflix Copy</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div id="main1">
-      <div id="background"></div>
-        <div id="main1child1">
-          <a href="index.html"><img src="media/netflixlogo.png" alt="Netflix logo" /></a>
-          <a id="a1" href="Web Pages/Singin Page.html">Sign In</a>
-        </div>
-        <div id="main1child2">
-          <h1>Laughter. Tears. Thrills. Find it all on Netflix.</h1>
-          <p id="mainp1">
-            Endless entertainment starts at just ₹149. Cancel anytime.
-          </p>
-          <p id="mainp2">
-            Ready to watch? Enter your email to create or restart your
-            membership.
-          </p>
-          <div id="maininput">
-            <input
-              id="maininputchild"
-              class="maininputchild"
-              placeholder="Email address"
-              type="text"
-              name="submit"
-            />
-            <button
-              id="maininputchild1"
-              class="maininputchild"
-              type="button"
-              onclick="alart(hello)"
-              name="submit"
-            >
-              Get Started <i class="fa-solid fa-chevron-right"></i>
-            </button>
-          </div>
-        </div>
-    </div>
-    <div id="main2">
-      <div id="main2child1">
-        <h1>Enjoy on your TV</h1>
-        <p id="main2p1">
-          Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
-          players and more.
-        </p>
-      </div>
-      <div id="main2child2">
-        <img id="main2img" src="media/image2.png" alt="image2" />
-        <video autoplay muted loop id="main2video">
-          <source src="media/video 2.mp4" />
-        </video>
-      </div>
-    </div>
-    <div id="main3">
-      <div id="main3child1">
-        <img id="main3img" src="media/image3.jpg" alt="image3" />
-      </div>
-      <div id="main3child2">
-        <h1>Download your shows to watch offline</h1>
-        <p id="main3p1">
-          Save your favourites easily and always have something to watch.
-        </p>
-      </div>
-    </div>
-    <div id="main4">
-      <div id="main4child1">
-        <h1>Watch everywhere</h1>
-        <p id="main4p1">
-          Stream unlimited movies and TV shows on your phone, tablet, laptop,
-          and TV.
-        </p>
-      </div>
-      <div id="main4child2">
-        <img id="main4img" src="media/image4.png" alt="image4" />
-        <img id="main4video" src="media/gif1.gif" />
-      </div>
-    </div>
-    <div id="main5">
-      <div id="main5child1">
-        <img id="main5img" src="media/image5.png" alt="image5" />
-      </div>
-      <div id="main5child2">
-        <h1>Create profiles for kids</h1>
-        <p id="main5p1">
-          Send children on adventures with their favourite characters in a space
-          made just for them—free with your membership.
-        </p>
-      </div>
-    </div>
-    <div id="main6">
-      <div id="main6child1">
-        <h1>Frequently Asked Questions</h1>
-      </div>
-      <div id="main6child2">
-        <div class="main6div"><p>What is Netflix?</p><div class="i"><i class="fa-thin fa-plus"></i></div></div>
-        <div class="main6div"><p>How much does Netflix cost?</p><div class="i"><i class="fa-thin fa-plus"></i></i></div></div>
-        <div class="main6div"><p>Where can i watch?</p><div class="i"><i class="fa-thin fa-plus"></i></div></div>
-        <div class="main6div"><p>How do i cancel?</p><div class="i"><i class="fa-thin fa-plus"></i></div></div>
-        <div class="main6div"><p>What can i watch on Netflix?</p><div class="i"><i class="fa-thin fa-plus"></i></div></div>
-        <div class="main6div"><p>Is Netflix is good for kids?</p><div class="i"><i class="fa-thin fa-plus"></i></div></div>
-      </div>
-      <div id="main6child3">
-        <p>
-          Ready to watch? Enter your email to create or restart your membership.
-        </p>
-      </div>
-      <div id="main6child4">
-        <input id="maininputchild" class="maininputchild" placeholder="Email address" type="text" name="submit"/>
-        <button id="maininputchild1" class="maininputchild" type="button" onclick="alart(hello)" name="submit">
-          Get Started <i class="fa-solid fa-chevron-right"></i>
-        </button>
-      </div>
-    </div>
-    <div id="main7">
-      <div id="main7child1">
-        <p>Questions? Call <a href="tel:000-800-919-1694">000-800-919-1694</a></p>
-      </div>
-      <div id="main7child2">
-        <ul id="main7ul1">
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Investor Relations</a></li>
-          <li><a href="#">Privacy</a></li>
-          <li><a href="#">Speed Test</a></li>
-        </ul>
-        <ul id="main7ul2">
-          <li><a href="#">Help Centre</a></li>
-          <li><a href="#">Jobs</a></li>
-          <li><a href="#">Cookie Preferences</a></li>
-          <li><a href="#">Legal Notices</a></li>
-        </ul>
-        <ul id="main7ul3">
-          <li><a href="#">Account</a></li>
-          <li><a href="#">Ways to Watch</a></li>
-          <li><a href="#">Corporate Information</a></li>
-          <li><a href="#">Only on Netflix</a></li>
-        </ul>
-        <ul id="main7ul4">
-          <li><a href="#">Media Centre</a></li>
-          <li><a href="#">Terms of Use</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
-      </div>
-    </div>
-  </body>
-</html>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+body {
+  background-color: rgb(95, 95, 95);
+}
+
+#main1 {
+  background-image: url("media/image1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-width: 405px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  padding: 2% 10%;
+  min-width: 405px;
+  position: relative;
+}
+
+#background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: radial-gradient(
+    rgba(0, 0, 0, 0.384) 10%,
+    rgba(0, 0, 0, 0.788) 100%
+  );
+}
+
+#main1child1 {
+  height: 110px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+#main1child1 img {
+  width: 160px;
+}
+
+#a1 {
+  font-size: 17px;
+  margin-top: 5px;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-right: 7px;
+}
+
+#a1:hover {
+  background-color: rgb(199, 0, 0);
+}
+
+#main1child2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 350px;
+  color: white;
+  text-align: center;
+  line-height: 60px;
+  z-index: 1;
+}
+
+#main1child2 h1 {
+  font-size: 50px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+#mainp1 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#mainp2 {
+  font-size: 21px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#maininput {
+  width: 100%;
+  text-align: center;
+}
+
+#maininputchild {
+  width: 35%;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-style: none;
+  outline: 1px solid green;
+  padding-left: 30px;
+}
+
+.maininputchild {
+  font-size: 25px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 55px;
+}
+
+#maininputchild1 {
+  width: 20%;
+  min-width: 170px;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+}
+
+#maininputchild::placeholder {
+  color: rgb(165, 165, 165);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#main2 {
+  color: white;
+  margin-top: 10px;
+  height: 550px;
+  display: flex;
+  align-content: space-evenly;
+  background-color: black;
+  min-width: 405px;
+}
+
+#main2child1 h1 {
+  font-size: 46px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+#main2child1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+#main2child2 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#main2img {
+  width: 100%;
+  z-index: 1;
+}
+
+#main2p1 {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#main2child1 p {
+  padding-left: 10%;
+  margin-top: 20px;
+}
+
+#main2child1 h1 {
+  padding-left: 10%;
+}
+
+#main2video {
+  width: 75%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+}
+
+#main3 {
+  color: white;
+  margin-top: 10px;
+  height: 550px;
+  display: flex;
+  align-content: space-evenly;
+  background-color: black;
+  min-width: 405px;
+}
+
+#main3child2 h1 {
+  font-size: 46px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+#main3child2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+#main3child1 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main3img {
+  width: 50%;
+}
+
+#main3p1 {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#main3child2 p {
+  padding-left: 0%;
+  margin-top: 20px;
+}
+
+#main3child2 h1 {
+  padding-left: 0%;
+}
+
+#main4 {
+  color: white;
+  margin-top: 10px;
+  height: 550px;
+  display: flex;
+  background-color: black;
+  position: relative;
+  min-width: 405px;
+}
+
+#main4child1 h1 {
+  font-size: 46px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+#main4child1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+#main4child2 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main4img {
+  width: 100%;
+  z-index: 1;
+}
+
+#main4video {
+  position: absolute;
+  width: 30.5%;
+  transform: translate(-1%, -33%);
+}
+
+#main4p1 {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#main4child1 p {
+  padding-left: 10%;
+  margin-top: 20px;
+}
+
+#main4child1 h1 {
+  padding-left: 10%;
+}
+
+#main5 {
+  color: white;
+  margin-top: 10px;
+  height: 550px;
+  display: flex;
+  align-content: space-evenly;
+  background-color: black;
+  min-width: 405px;
+}
+
+#main5child2 h1 {
+  font-size: 46px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+#main5child2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+#main5child1 {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+#main5img {
+  width: 100%;
+}
+
+#main5p1 {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#main5child2 p {
+  padding-left: 0%;
+  margin-top: 20px;
+}
+
+#main5child2 h1 {
+  padding-left: 0%;
+}
+
+#main6 {
+  color: white;
+  margin-top: 10px;
+  height: 920px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  min-width: 405px;
+}
+
+#main6child1 h1 {
+  font-size: 46px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+#main6child2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  min-height: 570px;
+  margin-top: 15px;
+}
+
+#main6child1 {
+  width: 100%;
+  text-align: center;
+  margin-top: 5%;
+}
+
+#main6child2 p {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 25px;
+}
+
+#main6child3 {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#main6child3 {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  margin: auto 0;
+}
+
+#main6child4 {
+  width: 79%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.main6div {
+  width: 76%;
+  height: 85px;
+  background-color: rgb(44, 44, 44);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main6div:hover {
+  background-color: rgb(73, 73, 73);
+}
+
+.i {
+  margin-right: 20px;
+  font-size: 50px;
+}
+
+#main7 {
+  color: white;
+  margin-top: 10px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  min-width: 405px;
+}
+
+#main7child1 {
+  width: 77%;
+  height: 24%;
+  font-size: 18px;
+  color: rgb(189, 189, 189);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#main7child1 p {
+  margin-top: 6%;
+}
+
+#main7child1 a {
+  color: rgb(189, 189, 189);
+}
+
+#main7child2 {
+  width: 77%;
+  height: 74%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#main7child2 ul {
+  list-style-type: none;
+  margin-right: 11%;
+  line-height: 35px;
+}
+
+#main7child2 ul li a {
+  color: rgb(189, 189, 189);
+  font-family: Arial;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 538px) {
+  #maininput {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 30%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #maininputchild {
+    width: 100%;
+  }
+
+  #maininputchild1 {
+    width: 60%;
+  }
+
+  #a1 {
+    font-size: 15px;
+    margin-top: 5px;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 10px 28px;
+    border-radius: 5px;
+    margin-right: 7px;
+  }
+
+  #main1child1 {
+    height: 50px;
+    width: 100%;
+    align-items: center;
+  }
+
+  #main1child1 img {
+    width: 115px;
+  }
+
+  #a1 {
+    margin-top: 0;
+    padding: 10px 20px;
+  }
+
+  #main1child2 {
+    height: 800px;
+    margin-top: 10%;
+  }
+
+  #main1child2 h1 {
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  #mainp1 {
+    font-size: 20px;
+    line-height: 30px;
+    width: 90%;
+  }
+
+  #mainp2 {
+    font-size: 20px;
+    line-height: 30px;
+    width: 90%;
+  }
+
+  #main2 {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  #main2child1 {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  #main2child1 p {
+    width: 100%;
+    font-size: 20px;
+    padding-left: 0%;
+    text-align: center;
+  }
+
+  #main2child1 h1 {
+    width: 100%;
+    font-size: 35px;
+    padding-left: 0%;
+    text-align: center;
+  }
+
+  #main2child2 {
+    width: 100%;
+  }
+
+  #main3 {
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+  }
+
+  #main3child1 {
+    width: 100%;
+  }
+
+  #main3child2 {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #main3child2 h1 {
+    font-size: 35px;
+  }
+
+  #main3p1 {
+    font-size: 20px;
+  }
+
+  #main4 {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  #main4child1 {
+    width: 85%;
+    margin: 0 auto;
+    height: 70%;
+    justify-content: center;
+  }
+
+  #main4child1 h1 {
+    width: 100%;
+    padding-left: 0%;
+    font-size: 35px;
+    text-align: center;
+  }
+
+  #main4child1 p {
+    width: 100%;
+    font-size: 20px;
+    padding-left: 0%;
+    text-align: center;
+  }
+
+  #main4child2 {
+    height: 700px;
+    width: 100%;
+  }
+
+  #main4video {
+    width: 60.5%;
+  }
+
+  #main5 {
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+  }
+
+  #main5child1 {
+    width: 100%;
+  }
+
+  #main5child2 {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #main5child2 h1 {
+    font-size: 35px;
+  }
+
+  #main2p1 {
+    font-size: 20px;
+  }
+
+  #main5p1 {
+    font-size: 20px;
+  }
+
+  #main6 {
+    height: 1050px;
+  }
+
+  #main6child1 {
+    margin-top: 15%;
+  }
+
+  #main6child1 h1 {
+    font-size: 35px;
+  }
+
+  #main6child2 p {
+    font-size: 20px;
+  }
+
+  .main6div {
+    width: 85%;
+    height: 80px;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #main6child3 {
+    height: 150px;
+    width: 85%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  #main6child4 {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+  }
+
+  #main7child1 {
+    width: 80%;
+  }
+
+  #main7child2 {
+    width: 80%;
+    flex-direction: column;
+    position: relative;
+  }
+
+  #main7child2 ul {
+    line-height: 35px;
+  }
+
+  #main7ul2 {
+    position: absolute;
+    left: 53%;
+  }
+
+  #main7ul3 {
+    position: absolute;
+    top: 47%;
+    left: 0%;
+  }
+
+  #main7ul4 {
+    position: absolute;
+    top: 60%;
+    left: 53%;
+  }
+}
