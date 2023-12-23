@@ -54,7 +54,7 @@ body {
   text-decoration: none;
   background-color: red;
   color: white;
-  padding: 5px 14px;
+  padding: 10px 20px;
   border-radius: 5px;
   margin-right: 7px;
 }
@@ -101,6 +101,7 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
   border-style: none;
   outline: 1px solid green;
+  padding-left: 30px;
 }
 
 .maininputchild {
@@ -124,7 +125,6 @@ body {
   color: rgb(165, 165, 165);
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 10px;
 }
 
 #main2 {
@@ -499,7 +499,7 @@ body {
 
   #main1child1 a {
     margin-top: 0;
-    padding: 5px 14px;
+    padding: 10px 20px;
   }
 
   #main1child2 {
