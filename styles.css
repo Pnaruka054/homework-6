@@ -14,15 +14,21 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  min-width: 360px;
-}
-
-#background {
+  min-width: 405px;
+  height: 700px;
   display: flex;
   flex-direction: column;
   padding: 2% 10%;
+  min-width: 405px;
+  position: relative;
+}
+
+#background {
   width: 100%;
-  min-width: 360px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
   background-image: radial-gradient(
     rgba(0, 0, 0, 0.384) 10%,
     rgba(0, 0, 0, 0.788) 100%
@@ -34,6 +40,7 @@ body {
   display: flex;
   align-items: start;
   justify-content: space-between;
+  z-index: 1;
 }
 
 #main1child1 img {
@@ -59,12 +66,13 @@ body {
 #main1child2 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  height: 485px;
+  height: 350px;
   color: white;
   text-align: center;
   line-height: 60px;
+  z-index: 1;
 }
 
 #main1child2 h1 {
@@ -126,7 +134,7 @@ body {
   display: flex;
   align-content: space-evenly;
   background-color: black;
-  min-width: 360px;
+  min-width: 405px;
 }
 
 #main2child1 h1 {
@@ -146,7 +154,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  position : relative;
+  position: relative;
 }
 
 #main2img {
@@ -168,11 +176,11 @@ body {
   padding-left: 10%;
 }
 
-#main2video{
+#main2video {
   width: 75%;
   position: absolute;
-  top : 50%;
-  left : 50%;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -70%);
 }
 
@@ -183,7 +191,7 @@ body {
   display: flex;
   align-content: space-evenly;
   background-color: black;
-  min-width: 360px;
+  min-width: 405px;
 }
 
 #main3child2 h1 {
@@ -228,10 +236,9 @@ body {
   margin-top: 10px;
   height: 550px;
   display: flex;
-  align-content: space-evenly;
   background-color: black;
-  min-width: 360px;
   position: relative;
+  min-width: 405px;
 }
 
 #main4child1 h1 {
@@ -261,7 +268,6 @@ body {
 #main4video {
   position: absolute;
   width: 30.5%;
-  height: 43%;
   transform: translate(-1%, -33%);
 }
 
@@ -286,7 +292,7 @@ body {
   display: flex;
   align-content: space-evenly;
   background-color: black;
-  min-width: 360px;
+  min-width: 405px;
 }
 
 #main5child2 h1 {
@@ -334,7 +340,7 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: black;
-  min-width: 360px;
+  min-width: 405px;
 }
 
 #main6child1 h1 {
@@ -409,7 +415,7 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: black;
-  min-width: 360px;
+  min-width: 405px;
 }
 
 #main7child1 {
@@ -447,10 +453,6 @@ body {
   font-size: 15px;
 }
 
-#main7ul2 ul li {
-  
-}
-
 @media screen and (max-width: 538px) {
   #maininput {
     display: flex;
@@ -459,6 +461,10 @@ body {
     height: 30%;
     justify-content: space-evenly;
     align-items: center;
+  }
+
+  #main1child1 img {
+    width: ;
   }
 
   #maininputchild {
@@ -481,64 +487,221 @@ body {
     margin-right: 7px;
   }
 
+  #main1child1 {
+    height: 50px;
+    width: 100%;
+    align-items: center;
+  }
+
+  #main1child1 img {
+    width: 115px;
+  }
+
+  #main1child1 a {
+    margin-top: 0;
+    padding: 5px 14px;
+  }
+
+  #main1child2 {
+    height: 800px;
+    margin-top: 10%;
+  }
+
   #main1child2 h1 {
-    font-size: 40px;
+    font-size: 35px;
+    line-height: 50px;
   }
 
   #mainp1 {
     font-size: 20px;
+    line-height: 30px;
     width: 90%;
   }
 
   #mainp2 {
-    font-size: 15px;
+    font-size: 20px;
+    line-height: 30px;
     width: 90%;
   }
 
-  #main1child1 {
-    height: 50px;
-    width: 100%;
+  #main2 {
+    flex-direction: column;
+    justify-content: space-evenly;
   }
 
-  #main1child2 {
-    height: 700px;
-    width: 100%;
+  #main2child1 {
+    width: 85%;
+    margin: 0 auto;
   }
 
-
-  #main1child1 img {
-    width: 140px;
+  #main2child1 p {
+    width: 100%;
+    font-size: 20px;
+    padding-left: 0%;
+    text-align: center;
   }
 
   #main2child1 h1 {
-    font-size: 40px;
+    width: 100%;
+    font-size: 35px;
+    padding-left: 0%;
+    text-align: center;
   }
 
-  #main2p1 {
-    font-size: 20px;
+  #main2child2 {
+    width: 100%;
+  }
+
+  #main3 {
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+  }
+
+  #main3child1 {
+    width: 100%;
+  }
+
+  #main3child2 {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
   }
 
   #main3child2 h1 {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   #main3p1 {
     font-size: 20px;
   }
 
-  #main4child1 h1 {
-    font-size: 40px;
+  #main4 {
+    flex-direction: column;
+    justify-content: space-evenly;
   }
 
-  #main4p1 {
+  #main4child1 {
+    width: 85%;
+    margin: 0 auto;
+    height: 70%;
+    justify-content: center;
+  }
+
+  #main4child1 h1 {
+    width: 100%;
+    padding-left: 0%;
+    font-size: 35px;
+    text-align: center;
+  }
+
+  #main4child1 p {
+    width: 100%;
     font-size: 20px;
+    padding-left: 0%;
+    text-align: center;
+  }
+
+  #main4child2 {
+    height: 700px;
+    width: 100%;
+  }
+
+  #main5 {
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+  }
+
+  #main5child1 {
+    width: 100%;
+  }
+
+  #main5child2 {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
   }
 
   #main5child2 h1 {
-    font-size: 40px;
+    font-size: 35px;
+  }
+
+  #main2p1 {
+    font-size: 20px;
   }
 
   #main5p1 {
     font-size: 20px;
+  }
+
+  #main6 {
+    height: 1050px;
+  }
+
+  #main6child1 {
+    margin-top: 15%;
+  }
+
+  #main6child1 h1 {
+    font-size: 35px;
+  }
+
+  #main6child2 p {
+    font-size: 20px;
+  }
+
+  .main6div {
+    width: 85%;
+    height: 80px;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #main6child3 {
+    height: 150px;
+    width: 85%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  #main6child4 {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+  }
+
+  #main7child1 {
+    width: 80%;
+  }
+
+  #main7child2 {
+    width: 80%;
+    flex-direction: column;
+    position: relative;
+  }
+
+  #main7child2 ul {
+    line-height: 35px;
+  }
+
+  #main7ul2 {
+    position: absolute;
+    left: 53%;
+  }
+
+  #main7ul3 {
+    position: absolute;
+    top: 47%;
+    left: 0%;
+  }
+
+  #main7ul4 {
+    position: absolute;
+    top: 60%;
+    left: 53%;
   }
 }
