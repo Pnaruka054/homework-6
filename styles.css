@@ -5,6 +5,11 @@
   word-wrap: break-word;
 }
 
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 body {
   background-color: rgb(95, 95, 95);
 }
@@ -14,13 +19,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  min-width: 405px;
   height: 700px;
   display: flex;
   flex-direction: column;
   padding: 2% 10%;
-  min-width: 405px;
   position: relative;
+  min-width: 300px;
 }
 
 #background {
@@ -47,7 +51,7 @@ body {
   width: 160px;
 }
 
-#main1child1 a {
+#a1 {
   font-size: 17px;
   margin-top: 5px;
   font-family: "Roboto", sans-serif;
@@ -59,7 +63,7 @@ body {
   margin-right: 7px;
 }
 
-#main1child1 a:hover {
+#a1:hover {
   background-color: rgb(199, 0, 0);
 }
 
@@ -134,7 +138,7 @@ body {
   display: flex;
   align-content: space-evenly;
   background-color: black;
-  min-width: 405px;
+  min-width: 300px;
 }
 
 #main2child1 h1 {
@@ -191,7 +195,7 @@ body {
   display: flex;
   align-content: space-evenly;
   background-color: black;
-  min-width: 405px;
+  min-width: 300px;
 }
 
 #main3child2 h1 {
@@ -238,7 +242,7 @@ body {
   display: flex;
   background-color: black;
   position: relative;
-  min-width: 405px;
+  min-width: 300px;
 }
 
 #main4child1 h1 {
@@ -292,7 +296,7 @@ body {
   display: flex;
   align-content: space-evenly;
   background-color: black;
-  min-width: 405px;
+  min-width: 300px;
 }
 
 #main5child2 h1 {
@@ -340,7 +344,7 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: black;
-  min-width: 405px;
+  min-width: 300px;
 }
 
 #main6child1 h1 {
@@ -415,7 +419,7 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: black;
-  min-width: 405px;
+  min-width: 300px;
 }
 
 #main7child1 {
@@ -463,10 +467,6 @@ body {
     align-items: center;
   }
 
-  #main1child1 img {
-    width: ;
-  }
-
   #maininputchild {
     width: 100%;
   }
@@ -475,7 +475,7 @@ body {
     width: 60%;
   }
 
-  #main1child1 a {
+  #a1 {
     font-size: 15px;
     margin-top: 5px;
     font-family: "Roboto", sans-serif;
@@ -497,7 +497,7 @@ body {
     width: 115px;
   }
 
-  #main1child1 a {
+  #a1 {
     margin-top: 0;
     padding: 10px 20px;
   }
