@@ -217,8 +217,14 @@ body {
     background-color: black;
   }
 
+  #main1child1 {
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   #main1child2 {
-    width: 100%;
+    width: 95%;
   }
 
   #main1child2id1 {
