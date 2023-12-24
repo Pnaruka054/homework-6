@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url("../media/image6.jpg");
+  background-image: url("../media/image6.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -238,5 +238,38 @@ body {
 
   #main1child3id2 {
     width: 85%;
+  }
+
+  #main1child3id2 {
+    width: 83%;
+  }
+
+  #main1child3ul1 {
+    line-height: 28px;
+  }
+  
+  #main1child3ul2 {
+    position: absolute;
+    top: 0;
+    left: 55%;
+    line-height: 28px;
+  }
+  
+  #main1child3ul3 {
+    position: absolute;
+    top: 180%;
+    left: 0%;
+    line-height: 28px;
+  }
+
+  #main1child3ul2wrap {
+    white-space: nowrap;
+  }
+  
+  #main1child3ul4 {
+    position: absolute;
+    top: 120%;
+    left: 0%;
+    line-height: 28px;
   }
 }
